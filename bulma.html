@@ -2,68 +2,50 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MinhaEmpresa</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <style>
-    .circle-img {
-      border-radius: 50%;
-      width: 250px;
-      height: 250px;
-      object-fit: cover;
-    }
-    .navbar-brand .navbar-item strong {
-      color: white;
-    }
-    .navbar {
-      background-color: #00d1b2;
-    }
-  </style>
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="navbar-brand">
-      <a class="navbar-item">
-        <strong>MinhaEmpresa</strong>
-      </a>
-      <a class="navbar-item">Início</a>
-      <a class="navbar-item">Serviços</a>
-      <a class="navbar-item">Contato</a>
+  <div class="has-background-primary py-2">
+    <div class="container is-flex is-align-items-center">
+      <span class="has-text-white has-text-weight-bold mr-4">MinhaEmpresa</span>
+      <a class="has-text-white mr-3">Início</a>
+      <a class="has-text-white mr-3">Serviços</a>
+      <a class="has-text-white">Contato</a>
     </div>
-  </nav>
+  </div>
 
-  <!-- Serviços -->
   <section class="section">
     <div class="container has-text-centered">
       <h2 class="title is-4">Nossos Serviços</h2>
 
       <div class="columns is-variable is-8">
-        <!-- Desenvolvimento Web -->
+        
         <div class="column">
-          <figure class="image is-inline-block">
-            <img src="image/desenvolvimento-web.jpg" alt="Desenvolvimento Web" class="circle-img">
+          <figure class="image is-256x256 is-inline-block">
+            <img class="is-rounded" src="image/desenvolvimento-web.jpg" alt="Desenvolvimento Web">
           </figure>
-          <h3 class="title is-6 mt-3">Desenvolvimento Web</h3>
+          <h3 class="title is-6 mt-4">Desenvolvimento Web</h3>
           <p>Sites modernos, rápidos e responsivos para seu negócio crescer.</p>
         </div>
 
-        <!-- Apps Mobile -->
+        
         <div class="column">
-          <figure class="image is-inline-block">
-            <img src="image/desenvolvimento-apps-mobile.webp" alt="Apps Mobile" class="circle-img">
+          <figure class="image is-256x256 is-inline-block">
+            <img class="is-rounded" src="image/desenvolvimento-apps-mobile.webp" alt="Apps Mobile">
           </figure>
-          <h3 class="title is-6 mt-3">Apps Mobile</h3>
+          <h3 class="title is-6 mt-4">Apps Mobile</h3>
           <p>Aplicativos sob medida para Android e iOS com foco no usuário.</p>
         </div>
 
-        <!-- Serviços na Nuvem -->
+        
         <div class="column">
-          <figure class="image is-inline-block">
-            <img src="image/armazenamento-em-nuvem.jpg" alt="Serviços na Nuvem" class="circle-img">
+          <figure class="image is-256x256 is-inline-block">
+            <img class="is-rounded" src="image/armazenamento-em-nuvem.jpg"Serviços na Nuvem">
           </figure>
-          <h3 class="title is-6 mt-3">Serviços na Nuvem</h3>
+          <h3 class="title is-6 mt-4">Serviços na Nuvem</h3>
           <p>Segurança, backup e disponibilidade total com soluções em nuvem.</p>
         </div>
       </div>
